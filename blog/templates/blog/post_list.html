@@ -4,12 +4,15 @@
   </head>
 
   <body>
-    <h1>Headings</h1>
-    <h2>ranked</h2>
-    <h3>from</h3>
-    <h4>largest</h4>
-    <h5>to</h5>
-    <h6>smallest</h6>
-    <p>what is the difference between <em>emphasis</em>, <i>italics</i> and <b>bolding</b>?</p>
+    <div>
+      <h1>DjangoTute Blog</h1>
+    </div>
+    {% for post in posts %}
+      <div>
+        <p>published: {{ post.published_date }}</p>
+        <h1><a href="">{{ post.title }}</a></h1>
+        <p>{{ post.text|linebreaksbr }}</p>
+      </div>
+    {% endfor %}
   </body>
 </html>

@@ -1,0 +1,39 @@
+h1 a {
+  color: #80097C;
+  font-weight: bolder;
+}
+
+.page-header {
+  background-color: #80097C;
+  margin-top: 0;
+  padding: 20px 20px 20px 40px;
+}
+
+.page-header h1, h1 a {
+  color: white;
+  font-weight: bolder;
+}
+
+.content {
+  margin-left: 40px;
+}
+
+.save {
+  float: right;
+}
+
+.post-form textarea, .post-form input {
+  width: 100%;
+}
+
+.date {
+  color: green;
+}
+
+.post {
+  margin-bottom: 70px;
+}
+
+.post h1, h1 a {
+  color: #80097c;
+}
